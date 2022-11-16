@@ -17,6 +17,5 @@ console.log({
   NODE_ENV: process.env.NODE_ENV
 });
 const pgp = require('pg-promise')();
-const connection = pgp('postgres://students:student@localhost:5432/playerstats')
+const connection = pgp('postgres://students:student@localhost:5432/playerstats');
 module.exports = connection;
-
