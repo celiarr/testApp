@@ -17,5 +17,5 @@ console.log({
   NODE_ENV: process.env.NODE_ENV
 });
 const pgp = require('pg-promise')();
-const connection = pgp('postgres://postgres:@localhost:5432/postgres');
+const connection = pgp('postgres://postgres:pizza831@localhost:5432/postgres');
 module.exports = connection;
