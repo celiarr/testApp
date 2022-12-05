@@ -28,7 +28,7 @@ const userId = Object.values(createUser);
 users.createPlayer(parseInt(userId[0]));
 }
 hashPassword()
-res.redirect('/joinSession');
+res.redirect('public/joinSession');
 }
   }
 });
