@@ -1,5 +1,5 @@
 const pgp = require('pg-promise')();
-const db = pgp('postgres://students:student@localhost:5432/playerstats');
+const db = pgp('postgres://stats_99ty_user:RFbyIf3x5WANM3iae1kSWuL0dLIHvAvA@dpg-cdel6r4gqg4d3ggr0fr0-a.oregon-postgres.render.com/stats_99ty');
     
 db.connect()
     .then(obj => {
